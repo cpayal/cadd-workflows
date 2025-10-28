@@ -75,7 +75,7 @@ With additional dependency reconciliation (especially between PyTorch and RDKit 
 The combined analysis provides a side-by-side comparison of **physics-based vs AI-based docking performance** on the same target and ligand set.
 
 ---
-## FinalList of Candidates 
+## Final List of Candidates 
 Autodock was completed and produced selections; however, due to low confidence in hinge-binder poses, I did not advance candidates from those. The list below reflects compounds selected via **DiffDock**.
 
 ### Selected Compounds
