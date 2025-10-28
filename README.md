@@ -75,7 +75,27 @@ With additional dependency reconciliation (especially between PyTorch and RDKit 
 The combined analysis provides a side-by-side comparison of **physics-based vs AI-based docking performance** on the same target and ligand set.
 
 ---
+## FinalList of Candidates 
+Autodock was completed and produced selections; however, due to low confidence in hinge-binder poses, I did not advance candidates from those. The list below reflects compounds selected via **DiffDock**.
 
+### Selected Compounds
+
+| Catalog_ID   | Source  | Method   |
+|--------------|---------|----------|
+| Z16226232    | Enamine | DiffDock |
+| Z3071631534  | Enamine | DiffDock |
+| 49863196     | PubChem | DiffDock |
+| Z56854611    | Enamine | DiffDock |
+| Z1013695804  | Enamine | DiffDock |
+| Z1514091612  | Enamine | DiffDock |
+| 5329551      | PubChem | DiffDock |
+| Z2636563025  | Enamine | DiffDock |
+| Z442313918   | Enamine | DiffDock |
+| 5329506      | PubChem | DiffDock |
+
+## Notes
+- Autodock runs completed successfully, but hinge-binder pose confidence was insufficient to move those candidates forward.
+- DiffDock selections prioritized pose plausibility near the hinge region.
 ## Citation
 
 If referencing this work, please cite:
