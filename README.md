@@ -24,8 +24,9 @@ DiffDock-workflow/      # AI-based docking workflow using DiffDock
 | **AutoDock Vina** | Physics-based | End-to-end molecular docking pipeline including receptor/ligand preparation, docking with AutoDock Vina, post-processing, ADME triage, and clustering analysis. |
 | **DiffDock** | Machine learning–based | Equivalent workflow built using DiffDock for fast and accurate docking via diffusion models, including setup scripts, CSV generation, and post-docking clustering analysis. |
 
-Both workflows use **CDK2 (PDB ID: 1H1Q)** as a model system, docking analogs of the co-crystal ligand *2A6 (NU2058)*.  
-Ligands are sourced from a subset of the **Enamine Hinge Binder Library**.
+- Both workflows use **CDK2 (PDB ID: 1H1Q)** as a model system, docking analogs of the co-crystal ligand *2A6 (NU2058)*.  
+- Ligands are sourced from a subset of the **Enamine Hinge Binder Library** and close-in analogs (80% similarity) with co-crystal ligand 2A6, from PubChem.
+   - the co-crystal ligand was also used in the workflow, for a quic validation of the process - although not include in hit triaging/candate selection.
 
 ---
 
