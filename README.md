@@ -61,7 +61,7 @@ With additional dependency reconciliation (especially between PyTorch and RDKit 
    - Analyze poses and cluster results.
 
 2. **DiffDock Workflow (`DiffDock-workflow/`)**
-   - Reuse same receptor and ligand datasets.
+   - Reuse same receptor and ligand datasets, by converting the formats (bash scripts included)
    - Prepare DiffDock input CSVs and run inference.
    - Analyze DiffDock poses and compare with AutoDock outputs.
 
