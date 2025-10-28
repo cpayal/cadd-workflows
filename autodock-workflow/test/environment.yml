@@ -1,0 +1,12 @@
+conda create -n cadd-vs-workflow python=3.9
+conda activate cadd-vs-workflow
+conda config --env --add channels conda-forge
+conda install -c conda-forge numpy swig boost-cpp libboost sphinx sphinx_rtd_theme
+pip install vina # numpy already installs automatically
+conda install "numpy<2.0" -n cadd-vs-workflow
+pip install meeko
+pip install rdkit
+pip install prody
+conda install -c conda-forge gemmi
+pip install pubchempy
+pip install tqdm
