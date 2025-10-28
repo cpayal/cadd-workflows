@@ -76,6 +76,13 @@ The combined analysis provides a side-by-side comparison of **physics-based vs A
 
 ---
 
+## Summary
+- This is included in the attached presentation **Summary-CADD-VS-Workflow**
+- But also for the individual detailed summaries, two notebook files have been added, in the individual folders :
+        - `step5-autodock_summary_selection.ipynb`
+        - `4_diffdock-summary-analysis.ipynb`
+
+
 ## Citation
 
 If referencing this work, please cite:
