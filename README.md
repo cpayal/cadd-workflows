@@ -96,6 +96,8 @@ Autodock was completed and produced selections; however, due to low confidence i
 ## Notes
 - Autodock runs completed successfully, but hinge-binder pose confidence was insufficient to move those candidates forward.
 - DiffDock selections prioritized pose plausibility near the hinge region.
+- The PubChem compounds are already CDK2 inhibitors and part of patents, but the data could be explored for further evaluation, and possibly analysis on lead optimization.
+  
 ## Citation
 
 If referencing this work, please cite:
