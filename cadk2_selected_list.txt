@@ -1,0 +1,11 @@
+Catalog_ID,source,Method
+Z16226232,Enamine,DiffDock
+Z3071631534,Enamine,DiffDock
+49863196,Enamine,DiffDock
+Z56854611,Enamine,DiffDock
+Z1013695804,Enamine,DiffDock
+Z1514091612,Enamine,DiffDock
+5329551,Enamine,DiffDock
+Z2636563025,Enamine,DiffDock
+Z442313918,Enamine,DiffDock
+5329506,Enamine,DiffDock
