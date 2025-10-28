@@ -35,6 +35,10 @@ Due to compatibility differences between the toolchains, the workflows are curre
 
 - `autodock_env` — includes AutoDock Vina, Meeko, Open Babel, and RDKit  
 - `diffdock_env` — includes DiffDock, PyTorch, RDKit, Open Babel, and torch_geometric
+- **Overall** :
+     - DiffDock's poses were much reliable, however some cyclic ring torsions could be improved using GNINA minimization
+     - AutoDock's rigid docking even with a maximum exhaustiveness of 32 did not result in good poses --> AutoDock Flex could be used or UniDock/GNINA/SMINA could be used instead
+          - Other alternatives listed in the summary notebook and the attached summary slide.
 
 ```bash
 # For AutoDock Vina
