@@ -1,2 +1,0 @@
-CID,status,out_pdbqt,best_kcal_mol,error
-,error,,,TypeError('Error: Vina requires a PDBQT file for the ligand.')
