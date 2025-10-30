@@ -26,7 +26,7 @@ DiffDock-workflow/      # AI-based docking workflow using DiffDock
 
 - Both workflows use **CDK2 (PDB ID: 1H1Q)** as a model system, docking analogs of the co-crystal ligand *2A6 (NU2058)*.  
 - Ligands are sourced from a subset of the **Enamine Hinge Binder Library** and close-in analogs (80% similarity) with co-crystal ligand 2A6, from PubChem.
-   - the co-crystal ligand was also used in the workflow, for a quic validation of the process - although not include in hit triaging/candate selection.
+   - the co-crystal ligand was also used in the workflow, for a quick validation of the process - although not include in hit triaging/candidate selection.
 
 ---
 
